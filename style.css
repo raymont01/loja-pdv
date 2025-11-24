@@ -1,0 +1,29 @@
+body {
+    padding-top: 56px; /* Espaço para o navbar fixo do Bootstrap */
+    background-color: #f8f9fa;
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.product-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
